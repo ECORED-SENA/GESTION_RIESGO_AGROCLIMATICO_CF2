@@ -1,0 +1,122 @@
+.banner-interno__titulo__icono
+  background-color: #FFFFFF !important
+
+.cajon.color-primario
+  background-color: #E2DAD7
+
+.cajon.color-primario::before
+  background-color: #8D6E61
+
+.tarjeta--azul
+  background-color: #D4E157
+
+.bloque-texto-d.color-secundario::before
+  background-color: #E5F6FC
+
+.bloque-texto-d
+  border-top: 1px solid #8D6E61
+
+.bg-text1
+  color: #8D6E61
+  border-radius: 20px
+
+.bg-color1
+  background-color: #F1F6C9
+  padding: 4px
+
+.bg-color2
+  background-image: url(../assets/curso/img22.svg)
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+  background-size: 95%
+  background-position: left top
+
+.bg-color3
+  background-image: url(../assets/curso/img23.svg)
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+  background-size: 100%
+  background-position: left top
+
+.bg-color4
+  background-image: url(../assets/curso/img30.svg)
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+  background-size: 100%
+  background-position: left top
+
+.bg-color5
+  background-image: url(../assets/curso/img37.svg)
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+  background-size: 100%
+  background-position: bottom
+
+.contenedor3c
+  background: white
+  border-radius: 1.5rem 1.5rem 0 1.5rem
+  position: relative
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  margin-top: 1rem
+  left: 10%
+  top: 6%
+
+.contenedor4c
+  position: relative
+  border-radius: 20px
+  background-color: #B2E4F7
+  padding-top: 20px
+  padding-bottom: 20px
+  padding-right: 20px
+  padding-left: 40px
+
+@media screen and ( min-width: 992px )  
+  .col-lg-4_5
+    width: 38%
+  .traslape1
+    //padding: 4.5rem
+.traslape1
+  display: inline-flexbox
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    img
+      margin-left: 11.3%
+  .f-right
+    float: right
+    .contenedor3c
+      margin-left: -33%
+
+@media screen and ( max-width: 991px )  
+  .traslape1
+    //padding: 1rem 3rem
+    .col-z1
+      z-index: 1
+      .contenedor4c
+        position: relative
+        top: -18%
+        background-color: #B2E4F7
+        padding-top: 100px
+        padding-bottom: 20px
+        padding-right: 20px
+        padding-left: 20px
+    .col-z2
+      z-index: 2
+    .f-left,.f-right
+      .contenedor3c
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        right: 0
+        top: -1rem
+      img
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        top: 0
+  .col-lg-4_5
+    width: 100%
