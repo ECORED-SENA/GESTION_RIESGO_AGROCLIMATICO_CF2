@@ -30,8 +30,9 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img19.svg', alt='Texto que describa la imagen').m-auto
       .col-lg-6
-        p Permite identificar las buenas prácticas agrícolas, en las que se mitigan los daños al medio ambiente, se reducen gases de efecto invernadero y se contribuye al cambio climático, protegiendo así la biodiversidad.
-        p.mb-0 Para que la agricultura sea de conservación se deben conservar recursos naturales, donde se gaste menos agua de la convencional en una actividad agropecuaria, donde se genere sombra y forraje para la protección de los suelos, aumentando así los nutrientes y también la productividad de los productos, ya que serían unas tierras más fértiles. Todo esto también se implementa y se coadyuva con la rotación de cultivos, o generando policultivos para no desertificar los suelos como era una práctica usual con los monocultivos.
+        .dual-txt-deco
+          p Permite identificar las buenas prácticas agrícolas, en las que se mitigan los daños al medio ambiente, se reducen gases de efecto invernadero y se contribuye al cambio climático, protegiendo así la biodiversidad.
+          p.mb-0 Para que la agricultura sea de conservación se deben conservar recursos naturales, donde se gaste menos agua de la convencional en una actividad agropecuaria, donde se genere sombra y forraje para la protección de los suelos, aumentando así los nutrientes y también la productividad de los productos, ya que serían unas tierras más fértiles. Todo esto también se implementa y se coadyuva con la rotación de cultivos, o generando policultivos para no desertificar los suelos como era una práctica usual con los monocultivos.
     separador.mb-5
     #t_2_2
     .titulo-segundo
@@ -84,7 +85,7 @@
         #t_2_5
         .titulo-segundo
           h2 2.5 Bienestar animal
-        p Es importante para ellos y para nosotros los humanos que hacemos uso y consumo de lo que producen como las carnes, las leches y productos textiles que aún se usan en el mercado. Según las normas internacionales de la Organización Mundial de Sanidad Animal (OIE) el bienestar animal designa el estado físico y mental de un animal en relación con las condiciones en las que vive y muere.
+        p Es importante para ellos y para nosotros los humanos que hacemos uso y consumo de lo que producen como las carnes, las leches y productos textiles que aún se usan en el mercado. #[span.bg-color6 Según las normas internacionales de la Organización Mundial de Sanidad Animal (OIE) el bienestar animal designa el estado físico y mental de un animal en relación con las condiciones en las que vive y muere.]
         p.mb-5 De acuerdo con el denominado principio de las cinco libertades, el bienestar de un animal queda garantizado cuando se cumplen los cinco requisitos  (FAWC, 1992), los cuales se presentan a continuación:
         figure(data-aos="fade-left").mb-5
           img(src='@/assets/curso/img28.svg', style="width: 1200px", alt='Texto que describa la imagen').m-auto

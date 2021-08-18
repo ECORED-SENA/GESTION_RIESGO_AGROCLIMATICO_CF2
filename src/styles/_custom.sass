@@ -1,5 +1,5 @@
 .banner-interno__titulo__icono
-  background-color: #FFFFFF !important
+  background-color: #12263f !important
 
 .cajon.color-primario
   background-color: #E2DAD7
@@ -52,6 +52,10 @@
   background-size: 100%
   background-position: bottom
 
+.bg-color6
+  background-color: #DFF4FC
+  padding: 4px
+
 .contenedor3c
   background: white
   border-radius: 1.5rem 1.5rem 0 1.5rem
@@ -69,6 +73,75 @@
   padding-bottom: 20px
   padding-right: 20px
   padding-left: 40px
+
+.dual-txt-deco
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 45%
+    height: 20%
+    background-color: #EDF2B7
+    z-index: 0
+  &::after
+    content: ""
+    position: absolute
+    bottom: -10px
+    right: -10px
+    width: 45%
+    height: 20%
+    background-color: #DAD0CC
+    z-index: 0
+  p 
+    position: relative
+    z-index: 1
+
+.dual-txt-deco1
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 45%
+    height: 20%
+    background-color: #D7EAF2
+    z-index: 0
+  p 
+    position: relative
+    z-index: 1
+
+.dual-txt-deco2
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 25%
+    height: 45%
+    background-color: #EDF2B7
+    z-index: 0
+  p 
+    position: relative
+    z-index: 1
+
+.dual-txt-deco3
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 20%
+    height: 5%
+    background-color: #eeeae8
+    z-index: 0
+  p 
+    position: relative
+    z-index: 1
 
 @media screen and ( min-width: 992px )  
   .col-lg-4_5

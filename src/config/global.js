@@ -260,21 +260,18 @@ export default {
       texto:
         'Rodríguez, A., Torres, S. y Hernández, Á. (2013). La comunicación en la gestión del riesgo: el papel de la relación comunidad y entorno. Gestión ambiental del riesgo frente al cambio climático.',
       tipo: 'PDF',
-      link:
-        'https://www.cortolima.gov.co/sites/default/files/images/stories/gestion_riesgos/Gestion_del_Riesgo/Modulos/Modulo_III_021013_Alta.pdf',
+      descarga: 'downloads/Anexo1.pdf',
     },
     {
       texto:
         'Llosa, S. (2006). Reducción del riesgo de desastres y adaptación al cambio climático. ISDR.',
       tipo: 'PDF',
-      link:
-        'https://unfccc.int/files/adaptation/adverse_effects_and_response_measures_art_48/application/pdf/reduccin_del_riesgo_de_desastres_y_adaptacin_al_cambio_climtico_-_silvia_llosa_isdr.pdf',
+      descarga: 'downloads/Anexo2.pdf',
     },
     {
       texto: 'IDEAM. (2018). Protocolo de monitoreo del agua. MINAMBIENTE.',
       tipo: 'PDF',
-      link:
-        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/PROTOCOLO_MONITOREO_AGUA_IDEAM.pdf',
+      descarga: 'downloads/Anexo3.pdf',
     },
     {
       texto: 'SIAC. (s.f). Predicción del clima.',
@@ -285,8 +282,7 @@ export default {
       texto:
         'Alcaldía Mayor de Bogotá. (2014). Metodologías de análisis de riesgo. Documento soporte. Guía para elaborar planes de emergencia y contingencias. FOPAE.',
       tipo: 'PDF',
-      link:
-        'https://www.sire.gov.co/documents/82884/83768/A.3.4+Metodologias+AR.pdf/81cee0d0-2f31-4c0e-b3eb-ad6831b1fda2',
+      descarga: 'downloads/Anexo4.pdf',
     },
   ],
   creditos: {
@@ -345,7 +341,43 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo Lopez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniela Muñoz Bedoya',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -362,7 +394,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
