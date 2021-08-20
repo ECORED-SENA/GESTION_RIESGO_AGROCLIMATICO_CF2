@@ -39,7 +39,7 @@
       h2 2.2 Monitoreo y seguimiento de fuentes hídricas
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/76qIWllk8Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.traslape1.mb-0.mb-lg-5
       .col-lg-4_5.col-z2.f-left(data-aos="fade-left")
         .contenedor3c.p-4
