@@ -140,7 +140,7 @@
               td
                 figure
                   img(src='@/assets/curso/img14.svg', alt='Texto que describa la imagen').m-auto
-              th Alto
+              th Bajo
               td
                 figure
                   img(src='@/assets/curso/img17.svg', alt='Texto que describa la imagen').m-auto

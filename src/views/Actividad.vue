@@ -5,14 +5,14 @@
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
+        .tarjeta.tarjeta--custom.h-100.d-flex.align-items-center
           figure
             img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica
         p.mb-4 La siguiente actividad tiene como propósito demostrar sus conocimientos sobre las #[b acciones para la mitigación del riesgo agroclimático].
-        .tarjeta.tarjeta--azul.p-3
+        .tarjeta.tarjeta--custom.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Seleccione una de las palabras que aparecen en la parte inferior, arrástrela y ubíque en el espacio que corresponde para completar cada frase.
